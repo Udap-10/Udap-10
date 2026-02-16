@@ -64,11 +64,11 @@ Built with scalability, reliability, and strong domain boundaries.
 ## 📊 GitHub Analytics
 
 <p align="center">
-
-  <!-- Main Stats -->
- <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Udap-10&theme=tokyonight" />
-
+  <img src="https://img.shields.io/github/followers/Udap-10?style=for-the-badge&logo=github" />
+  <img src="https://img.shields.io/github/stars/Udap-10?affiliations=OWNER&style=for-the-badge&logo=github" />
+  <img src="https://img.shields.io/github/last-commit/Udap-10/border-management?style=for-the-badge" />
 </p>
+
 
 ---
 
