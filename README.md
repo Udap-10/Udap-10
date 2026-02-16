@@ -80,6 +80,13 @@ Built with scalability, reliability, and strong domain boundaries.
 
 ---
 
+## 📈 Activity Graph
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Udap-10&theme=tokyo-night&hide_border=true&area=true" />
+</p>
+
+
 ## 📫 Connect With Me
 
 <p align="center">
