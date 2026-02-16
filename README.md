@@ -45,22 +45,6 @@ I design and build scalable backend systems using modern architecture patterns a
 
 ---
 
-## 🛂 Featured Project
-
-### 🚧 Border Management System
-
-A modular backend platform handling:
-
-- Citizen records  
-- Visa permits  
-- Entry & Exit processing  
-- Port management  
-- Asynchronous service communication  
-
-Built with scalability, reliability, and strong domain boundaries.
-
----
-
 ## 📊 GitHub Analytics
 
 <p align="center">
