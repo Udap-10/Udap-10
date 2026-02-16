@@ -1,47 +1,53 @@
-<h1 align="center">Hi 👋 I'm Udap Kharka</h1>
-<h3 align="center">Backend Engineer | NestJS | Microservices | Distributed Systems</h3>
+<h1 align="center">
+  Hi <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"> I'm Udap Kharka
+</h1>
+
+<h3 align="center">
+  Backend Engineer • NestJS • Microservices • Distributed Systems
+</h3>
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=Backend+Engineer;NestJS+Microservices+Architect;CQRS+%7C+Event-Driven+Systems;Building+Scalable+Distributed+Systems" />
+</p>
 
 ---
 
 ## 🚀 About Me
 
-I design and build scalable backend systems using modern architecture patterns and clean domain structure.
+I design and build scalable backend systems using modern architecture patterns and strong domain-driven structure.
 
 - 🔭 Currently building a **Micro-Service System**
 - 🌱 Deepening expertise in **Distributed Systems & Event-Driven Architecture**
-- 🧠 Working with **CQRS, Microservices, and NATS JetStream**
-- 🏗️ Focused on writing clean, maintainable, production-ready code
-- 📍 Based in Bhutan
+- 🧠 Working with **CQRS, Microservices & NATS JetStream**
+- 🏗️ Writing clean, maintainable, production-ready code
+- 📍 Based in Bhutan 🇧🇹
 
 ---
 
 ## 🛠️ Tech Stack
 
-### Backend
-- NestJS
-- TypeScript
-- Node.js
-- REST APIs
-- TypeORM
-- PostgreSQL
+### ⚙️ Backend
+<p>
+  <img src="https://skillicons.dev/icons?i=nestjs,ts,nodejs,postgres,docker" />
+</p>
 
-### Architecture & Systems
-- Microservices
-- CQRS Pattern
-- Event-Driven Systems
-- Clean Architecture
+- REST APIs  
+- TypeORM  
+- PostgreSQL  
 
-### Tools
-- Docker
-- Git
-- Yarn
-- Postman
+---
+
+### 🏗 Architecture
+- Microservices  
+- CQRS Pattern  
+- Event-Driven Systems  
+- Clean Architecture  
 
 ---
 
 ## 🛂 Featured Project
 
-### Border Management System
+### 🚧 Border Management System
 
 A modular backend platform handling:
 
@@ -51,25 +57,47 @@ A modular backend platform handling:
 - Port management  
 - Asynchronous service communication  
 
-Built with scalability, reliability, and structured domain boundaries in mind.
+Built with scalability, reliability, and strong domain boundaries.
 
 ---
 
-## 📊 GitHub Stats
+## 📊 GitHub Analytics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Udap-10&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Udap-10&layout=compact&theme=tokyonight&hide_border=true" />
+
+  <!-- Main Stats -->
+  <img height="160em"
+       src="https://github-readme-stats.vercel.app/api?username=Udap-10&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=1800" />
+
+  <!-- Top Languages -->
+  <img height="160em"
+       src="https://github-readme-stats.vercel.app/api/top-langs/?username=Udap-10&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=1800" />
+
+</p>
+
+---
+
+## 🏆 Contribution Streak
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=Udap-10&theme=tokyonight&hide_border=true" />
 </p>
 
 ---
 
 ## 📫 Connect With Me
 
-- 💼 LinkedIn: (add your link)
-- 📧 Email: (add your email)
+<p align="center">
+  <a href="https://linkedin.com/in/YOUR_LINK">
+    <img src="https://img.shields.io/badge/LinkedIn-Professional-blue?style=for-the-badge&logo=linkedin" />
+  </a>
+  <a href="mailto:YOUR_EMAIL">
+    <img src="https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail" />
+  </a>
+</p>
 
 ---
 
-> "Build systems that scale. Write code that lasts."
-
+<p align="center">
+  <i>"Build systems that scale. Write code that lasts."</i>
+</p>
