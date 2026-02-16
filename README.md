@@ -70,6 +70,12 @@ I design and build scalable backend systems using modern architecture patterns a
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Udap-10&theme=tokyo-night&hide_border=true&area=true" />
 </p>
 
+## 🐍 Contribution Snake
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Udap-10/Udap-10/output/github-contribution-grid-snake.svg" />
+</p>
+
 
 ## 📫 Connect With Me
 
