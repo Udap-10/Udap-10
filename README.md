@@ -63,17 +63,10 @@ Built with scalability, reliability, and strong domain boundaries.
 
 ## 📊 GitHub Analytics
 
-## 📊 GitHub Analytics
-
 <p align="center">
 
   <!-- Main Stats -->
-  <img height="160em"
-       src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=Udap-10&show_icons=true&theme=tokyonight&hide_border=true" />
-
-  <!-- Top Languages -->
-  <img height="160em"
-       src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=Udap-10&layout=compact&theme=tokyonight&hide_border=true" />
+ <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Udap-10&theme=tokyonight" />
 
 </p>
 
