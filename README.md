@@ -128,25 +128,6 @@ I design and build scalable backend systems using modern architecture patterns a
 
 ---
 
-## 💡 Architecture Spotlight
-
-```
-┌─────────────────────────────────────────────────────────────────┐
-│              Event-Driven Microservice Architecture              │
-│                                                                  │
-│  [Service A]──publish──▶ NATS JetStream ──consume──▶[Service B] │
-│       │                      │                           │       │
-│   Command Bus              Streams                  Event Bus    │
-│   (CQRS Write)           (Durable)                (CQRS Read)   │
-│       │                      │                           │       │
-│  [Write DB]          Redis Streams              [Read DB/Cache]  │
-│  (PostgreSQL)         Pub/Sub                   (PostgreSQL)     │
-│                             │                                    │
-│                    Outbox Pattern ──▶ Saga Orchestrator          │
-└─────────────────────────────────────────────────────────────────┘
-```
-
----
 
 ## 📫 Connect With Me
 
