@@ -71,9 +71,6 @@ I design and build scalable backend systems using modern architecture patterns a
 ## 📊 GitHub Analytics
 
 <div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=Udap-10&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&bg_color=0d1117&title_color=7ECFFF&icon_color=36BCF7&text_color=c9d1d9&border_radius=12" height="180"/>
-&nbsp;&nbsp;
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Udap-10&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&bg_color=0d1117&title_color=7ECFFF&text_color=c9d1d9&border_radius=12" height="180"/>
 
 </div>
