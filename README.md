@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,30:0f2027,70:203a43,100:2c5364&height=140&section=header&text=&animation=fadeIn" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:36BCF7,40:7ECFFF,80:00C6FF,100:0096FF&height=160&section=header&animation=fadeIn" />
 
 <br/>
 
@@ -28,13 +28,13 @@
 
 ## 🚀 About Me
 
-I design and build scalable backend systems using modern architecture patterns and domain-driven design — with a focus on **event-driven**, **message-first** thinking.
+I design and build scalable backend systems using modern architecture patterns and domain-driven design — with a focus on **event-driven**, **message-first systems**.
 
-- 🔭 Currently building a **microservice platform** with NATS JetStream as the backbone
-- 🧠 Deep in **CQRS, Event Sourcing & Outbox Pattern**
-- ⚡ Working with **NATS JetStream, Redis Streams, and async messaging**
-- 🏗️ Focused on **clean, maintainable, production-grade distributed systems**
-- 📍 Based in Bhutan 🇧🇹
+- 🔭 Building a **microservice platform** with NATS JetStream  
+- 🧠 Deep in **CQRS, Event Sourcing & Outbox Pattern**  
+- ⚡ Working with **NATS JetStream, Redis Streams, async messaging**  
+- 🏗️ Focused on **clean, production-grade distributed systems**  
+- 📍 Based in Bhutan 🇧🇹  
 
 ---
 
@@ -56,13 +56,13 @@ I design and build scalable backend systems using modern architecture patterns a
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/Event--Driven_Architecture-0d1117?style=flat-square&logo=apachekafka&logoColor=36BCF7&labelColor=1a1b27&color=1a1b27" />
-<img src="https://img.shields.io/badge/CQRS-0d1117?style=flat-square&logoColor=36BCF7&labelColor=1a1b27&color=1a1b27" />
-<img src="https://img.shields.io/badge/Event_Sourcing-0d1117?style=flat-square&logoColor=36BCF7&labelColor=1a1b27&color=1a1b27" />
-<img src="https://img.shields.io/badge/Outbox_Pattern-0d1117?style=flat-square&logoColor=36BCF7&labelColor=1a1b27&color=1a1b27" />
-<img src="https://img.shields.io/badge/Microservices-0d1117?style=flat-square&logoColor=36BCF7&labelColor=1a1b27&color=1a1b27" />
-<img src="https://img.shields.io/badge/Domain--Driven_Design-0d1117?style=flat-square&logoColor=36BCF7&labelColor=1a1b27&color=1a1b27" />
-<img src="https://img.shields.io/badge/Clean_Architecture-0d1117?style=flat-square&logoColor=36BCF7&labelColor=1a1b27&color=1a1b27" />
+<img src="https://img.shields.io/badge/Event--Driven_Architecture-1a1b27?style=flat-square&logo=apachekafka&logoColor=36BCF7" />
+<img src="https://img.shields.io/badge/CQRS-1a1b27?style=flat-square&logoColor=7ECFFF" />
+<img src="https://img.shields.io/badge/Event_Sourcing-1a1b27?style=flat-square&logoColor=00C6FF" />
+<img src="https://img.shields.io/badge/Outbox_Pattern-1a1b27?style=flat-square&logoColor=36BCF7" />
+<img src="https://img.shields.io/badge/Microservices-1a1b27?style=flat-square&logoColor=7ECFFF" />
+<img src="https://img.shields.io/badge/Domain--Driven_Design-1a1b27?style=flat-square&logoColor=00C6FF" />
+<img src="https://img.shields.io/badge/Clean_Architecture-1a1b27?style=flat-square&logoColor=36BCF7" />
 
 </div>
 
@@ -72,9 +72,9 @@ I design and build scalable backend systems using modern architecture patterns a
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Udap-10&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github&show=reviews,discussions_started,prs_merged,prs_merged_percentage&bg_color=0d1117&title_color=36BCF7&icon_color=36BCF7&text_color=c9d1d9&border_radius=12" height="175"/>
+<img src="https://github-readme-stats.vercel.app/api?username=Udap-10&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&bg_color=0d1117&title_color=7ECFFF&icon_color=36BCF7&text_color=c9d1d9&border_radius=12" height="180"/>
 &nbsp;&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Udap-10&layout=donut&theme=tokyonight&hide_border=true&langs_count=8&bg_color=0d1117&title_color=36BCF7&text_color=c9d1d9&border_radius=12" height="175"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Udap-10&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&bg_color=0d1117&title_color=7ECFFF&text_color=c9d1d9&border_radius=12" height="180"/>
 
 </div>
 
@@ -84,7 +84,7 @@ I design and build scalable backend systems using modern architecture patterns a
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?user=Udap-10&theme=tokyonight&hide_border=true&mode=weekly&fire=36BCF7&ring=36BCF7&currStreakLabel=36BCF7&background=0d1117&stroke=1a1b27&dates=7ECFFF&sideLabels=36BCF7&border_radius=12" width="680"/>
+<img src="https://streak-stats.demolab.com?user=Udap-10&theme=tokyonight&hide_border=true&mode=weekly&fire=00C6FF&ring=36BCF7&currStreakLabel=7ECFFF&background=0d1117&stroke=1a1b27&dates=9ad1ff&sideLabels=36BCF7&border_radius=12" width="700"/>
 
 </div>
 
@@ -94,7 +94,7 @@ I design and build scalable backend systems using modern architecture patterns a
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Udap-10&theme=tokyo-night&bg_color=0d1117&color=36BCF7&line=36BCF7&point=ffffff&area=true&area_color=36BCF7&hide_border=true&radius=8&custom_title=Udap%20Kharka%20—%20Daily%20Contribution%20Timeline" width="100%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Udap-10&bg_color=0d1117&color=7ECFFF&line=36BCF7&point=ffffff&area=true&area_color=1f6feb&hide_border=true&radius=10&custom_title=Udap%20Kharka%20—%20Contribution%20Flow" width="100%"/>
 
 </div>
 
@@ -131,7 +131,7 @@ I design and build scalable backend systems using modern architecture patterns a
 <br/>
 
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=100&section=footer&animation=fadeIn" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:36BCF7,40:7ECFFF,80:00C6FF,100:0096FF&height=160&section=footer&animation=fadeIn" />
   <br/>
   <sub><i>"Build systems that scale. Write code that lasts."</i></sub>
 </div>
