@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:36BCF7,40:7ECFFF,80:00C6FF,100:0096FF&height=160&section=header&animation=fadeIn" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:FFA500,50:FF8C00,100:FF4500&height=160&section=header&animation=fadeIn" />
 
 <br/>
 
@@ -31,10 +31,7 @@
 I design and build scalable backend systems using modern architecture patterns and domain-driven design — with a focus on **event-driven**, **message-first systems**.
 
 - 🔭 Building a **microservice platform** with NATS JetStream  
-- 🧠 Deep in **CQRS, Event Sourcing & Outbox Pattern**  
-- ⚡ Working with **NATS JetStream, Redis Streams, async messaging**  
-- 🏗️ Focused on **clean, production-grade distributed systems**  
-- 📍 Based in Bhutan 🇧🇹  
+- 🧠 Deep in **CQRS, Event Sourcing & Outbox Pattern** - ⚡ Working with **NATS JetStream, Redis Streams, async messaging** - 🏗️ Focused on **clean, production-grade distributed systems** - 📍 Based in Bhutan 🇧🇹  
 
 ---
 
@@ -42,11 +39,13 @@ I design and build scalable backend systems using modern architecture patterns a
 
 <div align="center">
 
-`NestJS` · `TypeScript` · `Node.js` · `PostgreSQL` · `Redis` · `NATS JetStream` · `Docker` · `Kafka` · `Prisma` · `TypeORM` · `BullMQ`
+`NestJS` · `TypeScript` · `Node.js` · `PostgreSQL` · `Redis` · `NATS JetStream` · `Docker` · `Kafka` · `Prisma` · `TypeORM` · `BullMQ` · `Swagger` · `Postman` · `AWS` · `GraphQL`
 
 <br/>
 
-<img src="https://skillicons.dev/icons?i=nestjs,ts,nodejs,postgres,redis,docker,kafka,git,linux&theme=dark&perline=9" />
+<marquee scrollamount="8" direction="left" width="80%">
+  <img src="https://skillicons.dev/icons?i=nestjs,ts,nodejs,postgres,redis,docker,kafka,git,linux,aws,swagger,postman,graphql,nginx&theme=dark" />
+</marquee>
 
 </div>
 
@@ -71,27 +70,7 @@ I design and build scalable backend systems using modern architecture patterns a
 ## 📊 GitHub Analytics
 
 <div align="center">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Udap-10&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&bg_color=0d1117&title_color=7ECFFF&text_color=c9d1d9&border_radius=12" height="180"/>
-
-</div>
-
----
-
-## 🔥 Contribution Streak
-
-<div align="center">
-
-<img src="https://streak-stats.demolab.com?user=Udap-10&theme=tokyonight&hide_border=true&mode=weekly&fire=00C6FF&ring=36BCF7&currStreakLabel=7ECFFF&background=0d1117&stroke=1a1b27&dates=9ad1ff&sideLabels=36BCF7&border_radius=12" width="700"/>
-
-</div>
-
----
-
-## 📈 Contribution Activity
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Udap-10&bg_color=0d1117&color=7ECFFF&line=36BCF7&point=ffffff&area=true&area_color=1f6feb&hide_border=true&radius=10&custom_title=Udap%20Kharka%20—%20Contribution%20Flow" width="100%"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Udap-10&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&bg_color=0d1117&title_color=7ECFFF&text_color=c9d1d9&border_radius=12" width="600"/>
 
 </div>
 
@@ -128,7 +107,7 @@ I design and build scalable backend systems using modern architecture patterns a
 <br/>
 
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:36BCF7,40:7ECFFF,80:00C6FF,100:0096FF&height=160&section=footer&animation=fadeIn" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:FFA500,50:FF8C00,100:FF4500&height=100&section=footer&animation=fadeIn" />
   <br/>
-  <sub><i>"Build systems that scale. Write code that lasts."</i></sub>
+  <h2><i>"Build systems that scale. Write code that lasts."</i></h2>
 </div>
