@@ -7,19 +7,19 @@
 </h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=Backend+Engineer;NestJS+Microservices+Architect;CQRS+%7C+Event-Driven+Systems;Building+Scalable+Distributed+Systems" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=2500&pause=800&color=36BCF7&center=true&vCenter=true&width=650&lines=Backend+Engineer;Designing+Scalable+Systems;Microservices+%7C+CQRS+%7C+Event-Driven;Building+Reliable+Distributed+Architectures" />
 </p>
 
 ---
 
 ## 🚀 About Me
 
-I design and build scalable backend systems using modern architecture patterns and strong domain-driven structure.
+I design and build scalable backend systems using modern architecture patterns and strong domain-driven design.
 
-- 🔭 Currently building a **Micro-Service System**
-- 🌱 Deepening expertise in **Distributed Systems & Event-Driven Architecture**
-- 🧠 Working with **CQRS, Microservices & NATS JetStream**
-- 🏗️ Writing clean, maintainable, production-ready code
+- 🔭 Currently building a **Microservice-based system**
+- 🌱 Deep diving into **Distributed Systems & Event-Driven Architecture**
+- 🧠 Working with **CQRS, NATS JetStream & Async Systems**
+- 🏗️ Focused on **clean, maintainable, production-grade code**
 - 📍 Based in Bhutan 🇧🇹
 
 ---
@@ -27,7 +27,7 @@ I design and build scalable backend systems using modern architecture patterns a
 ## 🛠️ Tech Stack
 
 ### ⚙️ Backend
-<p>
+<p align="center">
   <img src="https://skillicons.dev/icons?i=nestjs,ts,nodejs,postgres,docker" />
 </p>
 
@@ -48,39 +48,41 @@ I design and build scalable backend systems using modern architecture patterns a
 ## 📊 GitHub Analytics
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Udap-10&theme=tokyonight" />
+  <img src="https://img.shields.io/github/followers/Udap-10?style=for-the-badge&logo=github" />
+  <img src="https://img.shields.io/github/stars/Udap-10?affiliations=OWNER&style=for-the-badge&logo=github" />
+  <img src="https://img.shields.io/github/last-commit/Udap-10/border-management?style=for-the-badge" />
 </p>
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Udap-10&theme=tokyonight" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Udap-10&theme=tokyonight&utcOffset=6" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Udap-10&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" height="170" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Udap-10&layout=compact&theme=tokyonight&hide_border=true" height="170" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Udap-10&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Udap-10&layout=compact&theme=tokyonight&hide_border=true" height="165"/>
 </p>
 
 ---
 
-## 🔥 Contribution Streak & Activity
+## 🔥 Contribution Streak
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=Udap-10&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Udap-10&theme=tokyo-night&hide_border=true&area=true&custom_title=Udap's%20Contribution%20Graph" />
+  <img src="https://streak-stats.demolab.com?user=Udap-10&theme=tokyonight&hide_border=true" />
 </p>
 
 ---
 
-## 🧠 Contribution Insights
+## 📈 Activity Graph
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Udap-10&theme=tokyonight" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Udap-10&theme=tokyonight" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Udap-10&theme=tokyo-night&bg_color=1a1b27&color=36BCF7&line=36BCF7&point=ffffff&area=true&hide_border=true&custom_title=Udap%20Kharka%20Contribution%20Timeline" />
 </p>
+
+---
+
+## 🐍 Contribution Flow
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Udap-10/Udap-10/output/github-contribution-grid-snake.svg" />
+</p>
+
+---
 
 ## 📫 Connect With Me
 
