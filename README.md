@@ -48,28 +48,39 @@ I design and build scalable backend systems using modern architecture patterns a
 ## 📊 GitHub Analytics
 
 <p align="center">
-  <img src="https://img.shields.io/github/followers/Udap-10?style=for-the-badge&logo=github" />
-  <img src="https://img.shields.io/github/stars/Udap-10?affiliations=OWNER&style=for-the-badge&logo=github" />
-  <img src="https://img.shields.io/github/last-commit/Udap-10/border-management?style=for-the-badge" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Udap-10&theme=tokyonight" />
 </p>
 
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Udap-10&theme=tokyonight" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Udap-10&theme=tokyonight&utcOffset=6" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Udap-10&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" height="170" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Udap-10&layout=compact&theme=tokyonight&hide_border=true" height="170" />
+</p>
 
 ---
 
-## 🏆 Contribution Streak
+## 🔥 Contribution Streak & Activity
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=Udap-10&theme=tokyonight&hide_border=true" />
+  <img src="https://streak-stats.demolab.com?user=Udap-10&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Udap-10&theme=tokyo-night&hide_border=true&area=true&custom_title=Udap's%20Contribution%20Graph" />
 </p>
 
 ---
 
-## 📈 Activity Graph
+## 🧠 Contribution Insights
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Udap-10&theme=tokyo-night&hide_border=true&area=true" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Udap-10&theme=tokyonight" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Udap-10&theme=tokyonight" />
 </p>
-
 
 ## 📫 Connect With Me
 
