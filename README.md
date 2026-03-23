@@ -44,7 +44,7 @@ I design and build scalable backend systems using modern architecture patterns a
 <br/>
 
 <marquee scrollamount="8" direction="left" width="80%">
-  <img src="https://skillicons.dev/icons?i=nestjs,ts,nodejs,postgres,redis,docker,kafka,git,linux,aws,swagger,postman,graphql,nginx&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=nestjs,ts,nodejs,postgres,redis,docker,kafka,git,linux,aws,postman,graphql,nginx&theme=dark" />
 </marquee>
 
 </div>
