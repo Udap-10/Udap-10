@@ -48,7 +48,7 @@ $ nats sub "druk.udap.learning.>"
 [#4] druk.udap.building.platform         a microservice platform on NATS JetStream
 ```
 
-<details>
+<details open>
 <summary><b>🏯 Dzong config: what I run on</b></summary>
 <br>
 
@@ -62,7 +62,7 @@ $ nats sub "druk.udap.learning.>"
 
 </details>
 
-<details>
+<details open>
 <summary><b>🐍 Contribution log</b></summary>
 <br>
 
