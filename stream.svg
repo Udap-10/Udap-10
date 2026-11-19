@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">
+<rect width="1200" height="340" rx="14" fill="#0b1220"/>
+<text x="40" y="44" font-size="13" fill="#6e8aa3" letter-spacing="2">STREAM udap.skills · APPEND-ONLY · NOTHING GETS DELETED</text>
+<text x="1160" y="44" font-size="12" fill="#4f6f8a" text-anchor="end">consumer: udap · ack: explicit</text>
+<rect x="40" y="92" width="88" height="116" rx="8" fill="#0f2a3d" stroke="#36BCF7" stroke-opacity=".8"/>
+<text x="84.0" y="116" font-size="11" fill="#5d7f99" text-anchor="middle">seq 01</text>
+<text x="84.0" y="154" font-size="12" font-weight="700" fill="#e8f5ff" text-anchor="middle">TypeScript</text>
+<text x="84.0" y="192" font-size="11" fill="#36BCF7" text-anchor="middle">✓ acked</text>
+<rect x="134" y="92" width="88" height="116" rx="8" fill="#0f2a3d" stroke="#36BCF7" stroke-opacity=".8"/>
+<text x="178.0" y="116" font-size="11" fill="#5d7f99" text-anchor="middle">seq 02</text>
+<text x="178.0" y="154" font-size="13" font-weight="700" fill="#e8f5ff" text-anchor="middle">Node.js</text>
+<text x="178.0" y="192" font-size="11" fill="#36BCF7" text-anchor="middle">✓ acked</text>
+<rect x="228" y="92" width="88" height="116" rx="8" fill="#0f2a3d" stroke="#36BCF7" stroke-opacity=".8"/>
+<text x="272.0" y="116" font-size="11" fill="#5d7f99" text-anchor="middle">seq 03</text>
+<text x="272.0" y="154" font-size="13" font-weight="700" fill="#e8f5ff" text-anchor="middle">NestJS</text>
+<text x="272.0" y="192" font-size="11" fill="#36BCF7" text-anchor="middle">✓ acked</text>
+<rect x="322" y="92" width="88" height="116" rx="8" fill="#0f2a3d" stroke="#36BCF7" stroke-opacity=".8"/>
+<text x="366.0" y="116" font-size="11" fill="#5d7f99" text-anchor="middle">seq 04</text>
+<text x="366.0" y="154" font-size="12" font-weight="700" fill="#e8f5ff" text-anchor="middle">PostgreSQL</text>
+<text x="366.0" y="192" font-size="11" fill="#36BCF7" text-anchor="middle">✓ acked</text>
+<rect x="416" y="92" width="88" height="116" rx="8" fill="#0f2a3d" stroke="#36BCF7" stroke-opacity=".8"/>
+<text x="460.0" y="116" font-size="11" fill="#5d7f99" text-anchor="middle">seq 05</text>
+<text x="460.0" y="154" font-size="13" font-weight="700" fill="#e8f5ff" text-anchor="middle">Redis</text>
+<text x="460.0" y="192" font-size="11" fill="#36BCF7" text-anchor="middle">✓ acked</text>
+<rect x="510" y="92" width="88" height="116" rx="8" fill="#0f2a3d" stroke="#36BCF7" stroke-opacity=".8"/>
+<text x="554.0" y="116" font-size="11" fill="#5d7f99" text-anchor="middle">seq 06</text>
+<text x="554.0" y="154" font-size="13" font-weight="700" fill="#e8f5ff" text-anchor="middle">Docker</text>
+<text x="554.0" y="192" font-size="11" fill="#36BCF7" text-anchor="middle">✓ acked</text>
+<rect x="604" y="92" width="88" height="116" rx="8" fill="#0f2a3d" stroke="#36BCF7" stroke-opacity=".8"/>
+<text x="648.0" y="116" font-size="11" fill="#5d7f99" text-anchor="middle">seq 07</text>
+<text x="648.0" y="145" font-size="13" font-weight="700" fill="#e8f5ff" text-anchor="middle">NATS</text>
+<text x="648.0" y="163" font-size="13" font-weight="700" fill="#e8f5ff" text-anchor="middle">JetStream</text>
+<text x="648.0" y="192" font-size="11" fill="#36BCF7" text-anchor="middle">✓ acked</text>
+<rect x="698" y="92" width="88" height="116" rx="8" fill="#0f2a3d" stroke="#36BCF7" stroke-opacity=".8"/>
+<text x="742.0" y="116" font-size="11" fill="#5d7f99" text-anchor="middle">seq 08</text>
+<text x="742.0" y="154" font-size="13" font-weight="700" fill="#e8f5ff" text-anchor="middle">DDD</text>
+<text x="742.0" y="192" font-size="11" fill="#36BCF7" text-anchor="middle">✓ acked</text>
+<rect x="792" y="92" width="88" height="116" rx="8" fill="#2a1d08" stroke="#FFA500" stroke-dasharray="6 5"><animate attributeName="stroke-dashoffset" values="0;-22" dur="1.1s" repeatCount="indefinite"/></rect>
+<text x="836.0" y="116" font-size="11" fill="#5d7f99" text-anchor="middle">seq 09</text>
+<text x="836.0" y="154" font-size="13" font-weight="700" fill="#ffe2b0" text-anchor="middle">CQRS</text>
+<text x="836.0" y="192" font-size="11" fill="#FFA500" text-anchor="middle">◌ in-flight</text>
+<rect x="886" y="92" width="88" height="116" rx="8" fill="#2a1d08" stroke="#FFA500" stroke-dasharray="6 5"><animate attributeName="stroke-dashoffset" values="0;-22" dur="1.1s" repeatCount="indefinite"/></rect>
+<text x="930.0" y="116" font-size="11" fill="#5d7f99" text-anchor="middle">seq 10</text>
+<text x="930.0" y="145" font-size="13" font-weight="700" fill="#ffe2b0" text-anchor="middle">Event</text>
+<text x="930.0" y="163" font-size="13" font-weight="700" fill="#ffe2b0" text-anchor="middle">Sourcing</text>
+<text x="930.0" y="192" font-size="11" fill="#FFA500" text-anchor="middle">◌ in-flight</text>
+<rect x="980" y="92" width="88" height="116" rx="8" fill="#2a1d08" stroke="#FFA500" stroke-dasharray="6 5"><animate attributeName="stroke-dashoffset" values="0;-22" dur="1.1s" repeatCount="indefinite"/></rect>
+<text x="1024.0" y="116" font-size="11" fill="#5d7f99" text-anchor="middle">seq 11</text>
+<text x="1024.0" y="154" font-size="13" font-weight="700" fill="#ffe2b0" text-anchor="middle">Outbox</text>
+<text x="1024.0" y="192" font-size="11" fill="#FFA500" text-anchor="middle">◌ in-flight</text>
+<rect x="1074" y="92" width="88" height="116" rx="8" fill="none" stroke="#3a4c5e" stroke-dasharray="3 5"><animate attributeName="opacity" values=".35;1;.35" dur="2.4s" repeatCount="indefinite"/></rect>
+<text x="1118.0" y="116" font-size="11" fill="#5d7f99" text-anchor="middle">seq 12</text>
+<text x="1118.0" y="154" font-size="13" font-weight="700" fill="#7d93a8" text-anchor="middle">next?</text>
+<text x="1118.0" y="192" font-size="11" fill="#5d7389" text-anchor="middle">awaiting</text>
+<line x1="40" y1="236" x2="786" y2="236" stroke="#36BCF7" stroke-width="2.5"/>
+<text x="780" y="258" font-size="12" fill="#36BCF7" text-anchor="end">ack floor · seq 08</text>
+<path d="M0,0 L-7,-11 L7,-11Z" fill="#36BCF7" transform="translate(84.0,247)"><animateTransform attributeName="transform" type="translate" values="84.0,247;742.0,247;742.0,247" keyTimes="0;.85;1" dur="7s" repeatCount="indefinite"/></path>
+<line x1="792" y1="236" x2="1068" y2="236" stroke="#FFA500" stroke-width="2.5" stroke-dasharray="6 5"><animate attributeName="stroke-dashoffset" values="0;-22" dur="1.1s" repeatCount="indefinite"/></line>
+<text x="930.0" y="258" font-size="12" fill="#FFA500" text-anchor="middle">pending acks</text>
+<text x="1118.0" y="258" font-size="12" fill="#5d7389" text-anchor="middle">head</text>
+<text x="40" y="306" font-size="12" fill="#6e8aa3"><tspan fill="#36BCF7">✓ acked</tspan> = in my toolbox</text>
+<text x="330" y="306" font-size="12" fill="#6e8aa3"><tspan fill="#FFA500">◌ in-flight</tspan> = going deeper right now</text>
+<text x="700" y="306" font-size="12" fill="#6e8aa3"><tspan fill="#7d93a8">next</tspan> = whatever production asks for</text>
+</svg>
