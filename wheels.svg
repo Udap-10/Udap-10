@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">
+<defs>
+  <linearGradient id="shade" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#000" stop-opacity=".55"/><stop offset=".35" stop-color="#fff" stop-opacity=".18"/><stop offset=".55" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".6"/>
+  </linearGradient>
+</defs>
+<rect width="1200" height="360" rx="14" fill="#0e1024"/>
+<text x="40" y="40" font-size="13" fill="#9a90b8" letter-spacing="2">MANI WALL · EVERY TURN SENDS IT ONE MORE TIME</text>
+<text x="1160" y="40" font-size="12" fill="#6d6590" text-anchor="end">delivery: at-least-once</text>
+<path d="M28,74 L1172,74 L1158,62 L42,62Z" fill="#F4B63F"/><rect x="28" y="74" width="1144" height="10" fill="#9E2A2B"/>
+<line x1="82.5" y1="84" x2="82.5" y2="212" stroke="#6b4a2b" stroke-width="3"/>
+<clipPath id="c0"><rect x="57.5" y="102" width="50" height="100" rx="4"/></clipPath>
+<rect x="57.5" y="102" width="50" height="100" rx="4" fill="#F4B63F"/>
+<g clip-path="url(#c0)"><g><rect x="41.5" y="118" width="6" height="68" fill="#9E2A2B" opacity=".55"/><rect x="57.5" y="118" width="6" height="68" fill="#9E2A2B" opacity=".55"/><rect x="73.5" y="118" width="6" height="68" fill="#9E2A2B" opacity=".55"/><rect x="89.5" y="118" width="6" height="68" fill="#9E2A2B" opacity=".55"/><rect x="105.5" y="118" width="6" height="68" fill="#9E2A2B" opacity=".55"/><rect x="121.5" y="118" width="6" height="68" fill="#9E2A2B" opacity=".55"/><animateTransform attributeName="transform" type="translate" values="0,0;16,0" dur="0.47s" repeatCount="indefinite"/></g></g>
+<rect x="57.5" y="112" width="50" height="4" fill="#9E2A2B"/><rect x="57.5" y="188" width="50" height="4" fill="#9E2A2B"/>
+<rect x="57.5" y="102" width="50" height="100" rx="4" fill="url(#shade)"/>
+<rect x="53.5" y="96" width="58" height="8" rx="3" fill="#9E2A2B"/><rect x="53.5" y="200" width="58" height="8" rx="3" fill="#9E2A2B"/>
+<text x="82.5" y="232" font-size="12" font-weight="700" fill="#fbf6ea" text-anchor="middle">TypeScript</text>
+<text x="82.5" y="270" font-size="11" fill="#F4B63F" text-anchor="middle">↻ turning</text>
+<line x1="175.5" y1="84" x2="175.5" y2="212" stroke="#6b4a2b" stroke-width="3"/>
+<clipPath id="c1"><rect x="150.5" y="102" width="50" height="100" rx="4"/></clipPath>
+<rect x="150.5" y="102" width="50" height="100" rx="4" fill="#F4B63F"/>
+<g clip-path="url(#c1)"><g><rect x="134.5" y="118" width="6" height="68" fill="#9E2A2B" opacity=".55"/><rect x="150.5" y="118" width="6" height="68" fill="#9E2A2B" opacity=".55"/><rect x="166.5" y="118" width="6" height="68" fill="#9E2A2B" opacity=".55"/><rect x="182.5" y="118" width="6" height="68" fill="#9E2A2B" opacity=".55"/><rect x="198.5" y="118" width="6" height="68" fill="#9E2A2B" opacity=".55"/><rect x="214.5" y="118" width="6" height="68" fill="#9E2A2B" opacity=".55"/><animateTransform attributeName="transform" type="translate" values="0,0;16,0" dur="0.47s" repeatCount="indefinite"/></g></g>
+<rect x="150.5" y="112" width="50" height="4" fill="#9E2A2B"/><rect x="150.5" y="188" width="50" height="4" fill="#9E2A2B"/>
+<rect x="150.5" y="102" width="50" height="100" rx="4" fill="url(#shade)"/>
+<rect x="146.5" y="96" width="58" height="8" rx="3" fill="#9E2A2B"/><rect x="146.5" y="200" width="58" height="8" rx="3" fill="#9E2A2B"/>
+<text x="175.5" y="232" font-size="13" font-weight="700" fill="#fbf6ea" text-anchor="middle">Node.js</text>
+<text x="175.5" y="270" font-size="11" fill="#F4B63F" text-anchor="middle">↻ turning</text>
+<line x1="268.5" y1="84" x2="268.5" y2="212" stroke="#6b4a2b" stroke-width="3"/>
+<clipPath id="c2"><rect x="243.5" y="102" width="50" height="100" rx="4"/></clipPath>
+<rect x="243.5" y="102" width="50" height="100" rx="4" fill="#F4B63F"/>
+<g clip-path="url(#c2)"><g><rect x="227.5" y="118" width="6" height="68" fill="#9E2A2B" opacity=".55"/><rect x="243.5" y="118" width="6" height="68" fill="#9E2A2B" opacity=".55"/><rect x="259.5" y="118" width="6" height="68" fill="#9E2A2B" opacity=".55"/><rect x="275.5" y="118" width="6" height="68" fill="#9E2A2B" opacity=".55"/><rect x="291.5" y="118" width="6" height="68" fill="#9E2A2B" opacity=".55"/><rect x="307.5" y="118" width="6" height="68" fill="#9E2A2B" opacity=".55"/><animateTransform attributeName="transform" type="translate" values="0,0;16,0" dur="0.47s" repeatCount="indefinite"/></g></g>
+<rect x="243.5" y="112" width="50" height="4" fill="#9E2A2B"/><rect x="243.5" y="188" width="50" height="4" fill="#9E2A2B"/>
+<rect x="243.5" y="102" width="50" height="100" rx="4" fill="url(#shade)"/>
+<rect x="239.5" y="96" width="58" height="8" rx="3" fill="#9E2A2B"/><rect x="239.5" y="200" width="58" height="8" rx="3" fill="#9E2A2B"/>
+<text x="268.5" y="232" font-size="13" font-weight="700" fill="#fbf6ea" text-anchor="middle">NestJS</text>
+<text x="268.5" y="270" font-size="11" fill="#F4B63F" text-anchor="middle">↻ turning</text>
+<line x1="361.5" y1="84" x2="361.5" y2="212" stroke="#6b4a2b" stroke-width="3"/>
+<clipPath id="c3"><rect x="336.5" y="102" width="50" height="100" rx="4"/></clipPath>
+<rect x="336.5" y="102" width="50" height="100" rx="4" fill="#F4B63F"/>
+<g clip-path="url(#c3)"><g><rect x="320.5" y="118" width="6" height="68" fill="#9E2A2B" opacity=".55"/><rect x="336.5" y="118" width="6" height="68" fill="#9E2A2B" opacity=".55"/><rect x="352.5" y="118" width="6" height="68" fill="#9E2A2B" opacity=".55"/><rect x="368.5" y="118" width="6" height="68" fill="#9E2A2B" opacity=".55"/><rect x="384.5" y="118" width="6" height="68" fill="#9E2A2B" opacity=".55"/><rect x="400.5" y="118" width="6" height="68" fill="#9E2A2B" opacity=".55"/><animateTransform attributeName="transform" type="translate" values="0,0;16,0" dur="0.47s" repeatCount="indefinite"/></g></g>
+<rect x="336.5" y="112" width="50" height="4" fill="#9E2A2B"/><rect x="336.5" y="188" width="50" height="4" fill="#9E2A2B"/>
+<rect x="336.5" y="102" width="50" height="100" rx="4" fill="url(#shade)"/>
+<rect x="332.5" y="96" width="58" height="8" rx="3" fill="#9E2A2B"/><rect x="332.5" y="200" width="58" height="8" rx="3" fill="#9E2A2B"/>
+<text x="361.5" y="232" font-size="12" font-weight="700" fill="#fbf6ea" text-anchor="middle">PostgreSQL</text>
+<text x="361.5" y="270" font-size="11" fill="#F4B63F" text-anchor="middle">↻ turning</text>
+<line x1="454.5" y1="84" x2="454.5" y2="212" stroke="#6b4a2b" stroke-width="3"/>
+<clipPath id="c4"><rect x="429.5" y="102" width="50" height="100" rx="4"/></clipPath>
+<rect x="429.5" y="102" width="50" height="100" rx="4" fill="#F4B63F"/>
+<g clip-path="url(#c4)"><g><rect x="413.5" y="118" width="6" height="68" fill="#9E2A2B" opacity=".55"/><rect x="429.5" y="118" width="6" height="68" fill="#9E2A2B" opacity=".55"/><rect x="445.5" y="118" width="6" height="68" fill="#9E2A2B" opacity=".55"/><rect x="461.5" y="118" width="6" height="68" fill="#9E2A2B" opacity=".55"/><rect x="477.5" y="118" width="6" height="68" fill="#9E2A2B" opacity=".55"/><rect x="493.5" y="118" width="6" height="68" fill="#9E2A2B" opacity=".55"/><animateTransform attributeName="transform" type="translate" values="0,0;16,0" dur="0.47s" repeatCount="indefinite"/></g></g>
+<rect x="429.5" y="112" width="50" height="4" fill="#9E2A2B"/><rect x="429.5" y="188" width="50" height="4" fill="#9E2A2B"/>
+<rect x="429.5" y="102" width="50" height="100" rx="4" fill="url(#shade)"/>
+<rect x="425.5" y="96" width="58" height="8" rx="3" fill="#9E2A2B"/><rect x="425.5" y="200" width="58" height="8" rx="3" fill="#9E2A2B"/>
+<text x="454.5" y="232" font-size="13" font-weight="700" fill="#fbf6ea" text-anchor="middle">Redis</text>
+<text x="454.5" y="270" font-size="11" fill="#F4B63F" text-anchor="middle">↻ turning</text>
+<line x1="547.5" y1="84" x2="547.5" y2="212" stroke="#6b4a2b" stroke-width="3"/>
+<clipPath id="c5"><rect x="522.5" y="102" width="50" height="100" rx="4"/></clipPath>
+<rect x="522.5" y="102" width="50" height="100" rx="4" fill="#F4B63F"/>
+<g clip-path="url(#c5)"><g><rect x="506.5" y="118" width="6" height="68" fill="#9E2A2B" opacity=".55"/><rect x="522.5" y="118" width="6" height="68" fill="#9E2A2B" opacity=".55"/><rect x="538.5" y="118" width="6" height="68" fill="#9E2A2B" opacity=".55"/><rect x="554.5" y="118" width="6" height="68" fill="#9E2A2B" opacity=".55"/><rect x="570.5" y="118" width="6" height="68" fill="#9E2A2B" opacity=".55"/><rect x="586.5" y="118" width="6" height="68" fill="#9E2A2B" opacity=".55"/><animateTransform attributeName="transform" type="translate" values="0,0;16,0" dur="0.47s" repeatCount="indefinite"/></g></g>
+<rect x="522.5" y="112" width="50" height="4" fill="#9E2A2B"/><rect x="522.5" y="188" width="50" height="4" fill="#9E2A2B"/>
+<rect x="522.5" y="102" width="50" height="100" rx="4" fill="url(#shade)"/>
+<rect x="518.5" y="96" width="58" height="8" rx="3" fill="#9E2A2B"/><rect x="518.5" y="200" width="58" height="8" rx="3" fill="#9E2A2B"/>
+<text x="547.5" y="232" font-size="13" font-weight="700" fill="#fbf6ea" text-anchor="middle">Docker</text>
+<text x="547.5" y="270" font-size="11" fill="#F4B63F" text-anchor="middle">↻ turning</text>
+<line x1="640.5" y1="84" x2="640.5" y2="212" stroke="#6b4a2b" stroke-width="3"/>
+<clipPath id="c6"><rect x="615.5" y="102" width="50" height="100" rx="4"/></clipPath>
+<rect x="615.5" y="102" width="50" height="100" rx="4" fill="#F4B63F"/>
+<g clip-path="url(#c6)"><g><rect x="599.5" y="118" width="6" height="68" fill="#9E2A2B" opacity=".55"/><rect x="615.5" y="118" width="6" height="68" fill="#9E2A2B" opacity=".55"/><rect x="631.5" y="118" width="6" height="68" fill="#9E2A2B" opacity=".55"/><rect x="647.5" y="118" width="6" height="68" fill="#9E2A2B" opacity=".55"/><rect x="663.5" y="118" width="6" height="68" fill="#9E2A2B" opacity=".55"/><rect x="679.5" y="118" width="6" height="68" fill="#9E2A2B" opacity=".55"/><animateTransform attributeName="transform" type="translate" values="0,0;16,0" dur="0.47s" repeatCount="indefinite"/></g></g>
+<rect x="615.5" y="112" width="50" height="4" fill="#9E2A2B"/><rect x="615.5" y="188" width="50" height="4" fill="#9E2A2B"/>
+<rect x="615.5" y="102" width="50" height="100" rx="4" fill="url(#shade)"/>
+<rect x="611.5" y="96" width="58" height="8" rx="3" fill="#9E2A2B"/><rect x="611.5" y="200" width="58" height="8" rx="3" fill="#9E2A2B"/>
+<text x="640.5" y="232" font-size="13" font-weight="700" fill="#fbf6ea" text-anchor="middle">NATS</text>
+<text x="640.5" y="248" font-size="13" font-weight="700" fill="#fbf6ea" text-anchor="middle">JetStream</text>
+<text x="640.5" y="270" font-size="11" fill="#F4B63F" text-anchor="middle">↻ turning</text>
+<line x1="733.5" y1="84" x2="733.5" y2="212" stroke="#6b4a2b" stroke-width="3"/>
+<clipPath id="c7"><rect x="708.5" y="102" width="50" height="100" rx="4"/></clipPath>
+<rect x="708.5" y="102" width="50" height="100" rx="4" fill="#F4B63F"/>
+<g clip-path="url(#c7)"><g><rect x="692.5" y="118" width="6" height="68" fill="#9E2A2B" opacity=".55"/><rect x="708.5" y="118" width="6" height="68" fill="#9E2A2B" opacity=".55"/><rect x="724.5" y="118" width="6" height="68" fill="#9E2A2B" opacity=".55"/><rect x="740.5" y="118" width="6" height="68" fill="#9E2A2B" opacity=".55"/><rect x="756.5" y="118" width="6" height="68" fill="#9E2A2B" opacity=".55"/><rect x="772.5" y="118" width="6" height="68" fill="#9E2A2B" opacity=".55"/><animateTransform attributeName="transform" type="translate" values="0,0;16,0" dur="0.47s" repeatCount="indefinite"/></g></g>
+<rect x="708.5" y="112" width="50" height="4" fill="#9E2A2B"/><rect x="708.5" y="188" width="50" height="4" fill="#9E2A2B"/>
+<rect x="708.5" y="102" width="50" height="100" rx="4" fill="url(#shade)"/>
+<rect x="704.5" y="96" width="58" height="8" rx="3" fill="#9E2A2B"/><rect x="704.5" y="200" width="58" height="8" rx="3" fill="#9E2A2B"/>
+<text x="733.5" y="232" font-size="13" font-weight="700" fill="#fbf6ea" text-anchor="middle">DDD</text>
+<text x="733.5" y="270" font-size="11" fill="#F4B63F" text-anchor="middle">↻ turning</text>
+<line x1="826.5" y1="84" x2="826.5" y2="212" stroke="#6b4a2b" stroke-width="3"/>
+<clipPath id="c8"><rect x="801.5" y="102" width="50" height="100" rx="4"/></clipPath>
+<rect x="801.5" y="102" width="50" height="100" rx="4" fill="#E8641B"/>
+<g clip-path="url(#c8)"><g><rect x="785.5" y="118" width="6" height="68" fill="#9E2A2B" opacity=".55"/><rect x="801.5" y="118" width="6" height="68" fill="#9E2A2B" opacity=".55"/><rect x="817.5" y="118" width="6" height="68" fill="#9E2A2B" opacity=".55"/><rect x="833.5" y="118" width="6" height="68" fill="#9E2A2B" opacity=".55"/><rect x="849.5" y="118" width="6" height="68" fill="#9E2A2B" opacity=".55"/><rect x="865.5" y="118" width="6" height="68" fill="#9E2A2B" opacity=".55"/><animateTransform attributeName="transform" type="translate" values="0,0;16,0" dur="1.07s" repeatCount="indefinite"/></g></g>
+<rect x="801.5" y="112" width="50" height="4" fill="#9E2A2B"/><rect x="801.5" y="188" width="50" height="4" fill="#9E2A2B"/>
+<rect x="801.5" y="102" width="50" height="100" rx="4" fill="url(#shade)"/>
+<rect x="797.5" y="96" width="58" height="8" rx="3" fill="#9E2A2B"/><rect x="797.5" y="200" width="58" height="8" rx="3" fill="#9E2A2B"/>
+<text x="826.5" y="232" font-size="13" font-weight="700" fill="#ffd9b0" text-anchor="middle">CQRS</text>
+<text x="826.5" y="270" font-size="11" fill="#E8641B" text-anchor="middle">↻ learning</text>
+<line x1="919.5" y1="84" x2="919.5" y2="212" stroke="#6b4a2b" stroke-width="3"/>
+<clipPath id="c9"><rect x="894.5" y="102" width="50" height="100" rx="4"/></clipPath>
+<rect x="894.5" y="102" width="50" height="100" rx="4" fill="#E8641B"/>
+<g clip-path="url(#c9)"><g><rect x="878.5" y="118" width="6" height="68" fill="#9E2A2B" opacity=".55"/><rect x="894.5" y="118" width="6" height="68" fill="#9E2A2B" opacity=".55"/><rect x="910.5" y="118" width="6" height="68" fill="#9E2A2B" opacity=".55"/><rect x="926.5" y="118" width="6" height="68" fill="#9E2A2B" opacity=".55"/><rect x="942.5" y="118" width="6" height="68" fill="#9E2A2B" opacity=".55"/><rect x="958.5" y="118" width="6" height="68" fill="#9E2A2B" opacity=".55"/><animateTransform attributeName="transform" type="translate" values="0,0;16,0" dur="1.07s" repeatCount="indefinite"/></g></g>
+<rect x="894.5" y="112" width="50" height="4" fill="#9E2A2B"/><rect x="894.5" y="188" width="50" height="4" fill="#9E2A2B"/>
+<rect x="894.5" y="102" width="50" height="100" rx="4" fill="url(#shade)"/>
+<rect x="890.5" y="96" width="58" height="8" rx="3" fill="#9E2A2B"/><rect x="890.5" y="200" width="58" height="8" rx="3" fill="#9E2A2B"/>
+<text x="919.5" y="232" font-size="13" font-weight="700" fill="#ffd9b0" text-anchor="middle">Event</text>
+<text x="919.5" y="248" font-size="13" font-weight="700" fill="#ffd9b0" text-anchor="middle">Sourcing</text>
+<text x="919.5" y="270" font-size="11" fill="#E8641B" text-anchor="middle">↻ learning</text>
+<line x1="1012.5" y1="84" x2="1012.5" y2="212" stroke="#6b4a2b" stroke-width="3"/>
+<clipPath id="c10"><rect x="987.5" y="102" width="50" height="100" rx="4"/></clipPath>
+<rect x="987.5" y="102" width="50" height="100" rx="4" fill="#E8641B"/>
+<g clip-path="url(#c10)"><g><rect x="971.5" y="118" width="6" height="68" fill="#9E2A2B" opacity=".55"/><rect x="987.5" y="118" width="6" height="68" fill="#9E2A2B" opacity=".55"/><rect x="1003.5" y="118" width="6" height="68" fill="#9E2A2B" opacity=".55"/><rect x="1019.5" y="118" width="6" height="68" fill="#9E2A2B" opacity=".55"/><rect x="1035.5" y="118" width="6" height="68" fill="#9E2A2B" opacity=".55"/><rect x="1051.5" y="118" width="6" height="68" fill="#9E2A2B" opacity=".55"/><animateTransform attributeName="transform" type="translate" values="0,0;16,0" dur="1.07s" repeatCount="indefinite"/></g></g>
+<rect x="987.5" y="112" width="50" height="4" fill="#9E2A2B"/><rect x="987.5" y="188" width="50" height="4" fill="#9E2A2B"/>
+<rect x="987.5" y="102" width="50" height="100" rx="4" fill="url(#shade)"/>
+<rect x="983.5" y="96" width="58" height="8" rx="3" fill="#9E2A2B"/><rect x="983.5" y="200" width="58" height="8" rx="3" fill="#9E2A2B"/>
+<text x="1012.5" y="232" font-size="13" font-weight="700" fill="#ffd9b0" text-anchor="middle">Outbox</text>
+<text x="1012.5" y="270" font-size="11" fill="#E8641B" text-anchor="middle">↻ learning</text>
+<line x1="1105.5" y1="84" x2="1105.5" y2="212" stroke="#6b4a2b" stroke-width="3"/>
+<rect x="1080.5" y="102" width="50" height="100" rx="6" fill="none" stroke="#5c5580" stroke-dasharray="4 5"><animate attributeName="opacity" values=".35;1;.35" dur="2.4s" repeatCount="indefinite"/></rect>
+<text x="1105.5" y="232" font-size="13" font-weight="700" fill="#8c84ad" text-anchor="middle">next?</text>
+<text x="1105.5" y="270" font-size="11" fill="#6d6590" text-anchor="middle">awaiting</text>
+<rect x="28" y="284" width="1144" height="22" fill="#F3EEE2" opacity=".92"/><rect x="28" y="284" width="1144" height="6" fill="#9E2A2B"/>
+<text x="40" y="336" font-size="12" fill="#9a90b8"><tspan fill="#F4B63F">↻ turning</tspan> = in my toolbox</text>
+<text x="340" y="336" font-size="12" fill="#9a90b8"><tspan fill="#E8641B">↻ learning</tspan> = going deeper right now</text>
+<text x="720" y="336" font-size="12" fill="#9a90b8"><tspan fill="#8c84ad">next?</tspan> = whatever production asks for</text>
+</svg>

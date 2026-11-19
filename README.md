@@ -1,50 +1,55 @@
 <p align="center">
-  <img src="./banner.svg" alt="Udap Kharka: backend engineer building event-driven systems in Bhutan" width="100%">
+  <img src="./banner.svg" alt="Udap Kharka: backend engineer building event-driven systems in Bhutan. Messages cross a chain bridge between two dzongs at dusk." width="100%">
 </p>
 
 <p align="center">
-  <i>I build backend systems that talk in events: services that publish facts, consume them reliably,<br>
-  and keep working when a broker restarts, a message arrives twice, or another service is down.</i>
+  <b>Kuzuzangpo la!</b> 🙏🇧🇹<br>
+  <i>I build backend systems that talk in events, from the Land of the Thunder Dragon:<br>
+  services that publish facts, consume them reliably, and keep working when a message crosses the bridge twice.</i>
 </p>
 
 <br>
 
-### 📜 The log so far
+### 📿 The mani wall so far
+
+Every turn of a prayer wheel sends its prayer out one more time. That's at-least-once delivery, so my stack lives on a mani wall:
 
 <p align="center">
-  <img src="./stream.svg" alt="My stack as an append-only stream: TypeScript, Node.js, NestJS, PostgreSQL, Redis, Docker, NATS JetStream and DDD acked; CQRS, Event Sourcing and Outbox still in flight" width="100%">
+  <img src="./wheels.svg" alt="A row of prayer wheels, one per technology: TypeScript, Node.js, NestJS, PostgreSQL, Redis, Docker, NATS JetStream and DDD turning; CQRS, Event Sourcing and Outbox still being learned" width="100%">
 </p>
 
 <br>
 
-### 📬 Dead-letter queue
+### 🏹 Arrows that missed
 
-Some messages only get processed after a few failures. These are mine:
+Archery is Bhutan's national sport, and the misses teach more than the hits. These are mine:
 
-> `nak ×1` **At-least-once means at-least-twice.** Every consumer is idempotent, or the duplicate will find it.
+> `miss ×1` **At-least-once means at-least-twice.** Every consumer is idempotent, or the duplicate will find it.
 >
-> `nak ×2` **Never write to the database and the broker separately.** Sooner or later only one of them succeeds. That's what the outbox is for.
+> `miss ×2` **Never write to the database and the broker separately.** Sooner or later only one of them succeeds. That's what the outbox is for.
 >
-> `nak ×3` **An event is a fact, not a command.** Name it in the past tense and never rewrite history.
+> `miss ×3` **An event is a fact, not a command.** Name it in the past tense and never rewrite history.
 >
-> `nak ×4` **"Eventually consistent" still needs an owner.** Someone has to know how long "eventually" is allowed to be.
+> `miss ×4` **"Eventually consistent" still needs an owner.** Someone has to know how long "eventually" is allowed to be.
 >
-> `nak ×5` **Decide what happens in the DLQ before production decides for you.**
+> `miss ×5` **Decide what happens in the dead-letter queue before production decides for you.**
 
 <br>
 
-### 🔁 Currently consuming
+### 🌶️ Still simmering
+
+Like a good pot of ema datshi, some things can't be rushed:
 
 ```
-$ nats sub "udap.learning.>"
-[#1] udap.learning.event-sourcing   rebuilding state from the log, not the table
-[#2] udap.learning.cqrs             separating the write model from the questions people ask
-[#3] udap.learning.outbox           never losing an event between commit and publish
-[#4] udap.building.platform         a microservice platform on NATS JetStream
+$ nats sub "druk.udap.learning.>"
+[#1] druk.udap.learning.event-sourcing   rebuilding state from the log, not the table
+[#2] druk.udap.learning.cqrs             separating the write model from the questions people ask
+[#3] druk.udap.learning.outbox           never losing an event between commit and publish
+[#4] druk.udap.building.platform         a microservice platform on NATS JetStream
 ```
 
 <details>
-<summary><b>🧾 Stream config: what I run on</b></summary>
+<summary><b>🏯 Dzong config: what I run on</b></summary>
 <br>
 
 **Build:** NestJS · TypeScript · Node.js · GraphQL<br>
@@ -77,4 +82,4 @@ $ nats sub "udap.learning.>"
   <a href="mailto:udapkharka64@gmail.com">✉️ udapkharka64@gmail.com</a>
 </p>
 
-<p align="center"><sub><i>Build systems that scale. Write code that lasts. Ack every message.</i></sub></p>
+<p align="center"><sub><i>Tashi Delek 🙏 Build systems that scale, write code that lasts, and optimise for Gross National Happiness: fewer 2 a.m. pages for everyone.</i></sub></p>
