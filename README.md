@@ -35,38 +35,22 @@ request → agent runtime ──┬─ RAG    pgvector + full-text, fused with R
 
 ### 🏹 Arrows that missed
 
-Archery is Bhutan's national sport, and the misses teach more than the hits. These are mine:
+Archery is Bhutan's national sport. My misses:
 
-> `miss ×1` **At-least-once means at-least-twice.** Every consumer is idempotent, or the duplicate will find it.
->
-> `miss ×2` **Never write to the database and the broker separately.** Sooner or later only one of them succeeds. That's what the outbox is for.
->
-> `miss ×3` **An event is a fact, not a command.** Name it in the past tense and never rewrite history.
->
-> `miss ×4` **"Eventually consistent" still needs an owner.** Someone has to know how long "eventually" is allowed to be.
->
-> `miss ×5` **Decide what happens in the dead-letter queue before production decides for you.**
->
-> `miss ×6` **An LLM is a dependency, not an oracle.** Put it behind an interface, time it out, and have a plan for when it's wrong.
->
-> `miss ×7` **Vectors alone miss exact words.** Search for an ID or a permit number and keyword search wins. Use both.
->
-> `miss ×8` **Never let an agent hold the keys.** It proposes the action, a person approves it, and the audit log remembers who.
+> `×1` **At-least-once means at-least-twice.** Make every consumer idempotent.<br>
+> `×2` **Write to the database and the broker separately, and one will fail.** Use an outbox.<br>
+> `×3` **An LLM is a dependency, not an oracle.** Put it behind an interface.<br>
+> `×4` **Never let an agent hold the keys.** It proposes, a person approves.
 
 <br>
 
 ### 🌶️ Still simmering
 
-Like a good pot of ema datshi, some things can't be rushed:
-
 ```
 $ nats sub "druk.udap.learning.>"
-[#1] druk.udap.learning.event-sourcing   rebuilding state from the log, not the table
-[#2] druk.udap.learning.cqrs             separating the write model from the questions people ask
-[#3] druk.udap.learning.outbox           never losing an event between commit and publish
-[#4] druk.udap.building.platform         a microservice platform on NATS JetStream
-[#5] druk.udap.building.agents           agentic workflows with tools, RAG and human approval
-[#6] druk.udap.learning.evals            knowing whether an agent got better or just different
+[#1] event-sourcing   rebuilding state from the log, not the table
+[#2] agents           tools, RAG and human approval
+[#3] evals            did the agent get better, or just different?
 ```
 
 <details open>
