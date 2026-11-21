@@ -3,10 +3,6 @@
 </p>
 
 <p align="center">
-  <img src="./portrait.svg" alt="Udap Kharka in a gho, flipping in and out of view" width="200">
-</p>
-
-<p align="center">
   <b>Kuzuzangpo la!</b> 🙏🇧🇹<br>
   <i>I build backend systems that talk in events, from the Land of the Thunder Dragon:<br>
   services that publish facts, consume them reliably, and keep working when a message crosses the bridge twice.<br>
