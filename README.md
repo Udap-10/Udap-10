@@ -23,39 +23,13 @@ Every turn of a prayer wheel sends its prayer out one more time. That's at-least
 
 ### 🤖 Agents that ask before they act
 
-I work on a multi-tenant agentic AI platform: teams build agents, give them a knowledge base and tools, and wire them into workflows. The architecture underneath:
+I work on a multi-tenant agentic AI platform, where agents get a knowledge base, real tools and a person in the loop:
 
 ```
-         chat · REST · Socket.IO stream · schedule · event
-                                  │
-                 ┌────────────────▼─────────────────┐
-                 │ agent runtime                    │
-                 │ tenant · role · CASL permissions │
-                 │ re-checked on every call         │
-                 └──────┬─────────┬────────────┬────┘
-                        │         │            │
- ┌──────────────────────▼─┐ ┌─────▼──────┐ ┌───▼───────────────────┐
- │ knowledge (RAG)        │ │ LLM        │ │ tool gateway          │
- │ PDF · DOCX · XLSX      │ │ Claude     │ │ database · HTTP API   │
- │ → chunk → embed        │ │ Gemini     │ │ email · file storage  │
- │ pgvector + full-text   │ │ OpenAI-    │ └───────────┬───────────┘
- │ fused with RRF         │ │ compatible │             │ side effects?
- └────────────────────────┘ └────────────┘   ┌─────────▼────────────┐
-                                             │ human approval task  │
-                                             │ + audit log          │
-                                             └──────────────────────┘
-                                             runs only once a named
-                                             person says yes
-
-workflow orchestrator:
-  trigger → ai → knowledge → action → control/loop → governance
+request → agent runtime ──┬─ RAG    pgvector + full-text, fused with RRF
+         tenant · role    ├─ LLM    Claude · Gemini · OpenAI-compatible
+                          └─ tools  side effect? → human approval → audit log
 ```
-
-- **Retrieval is hybrid.** pgvector cosine similarity and Postgres full-text search run side by side, and reciprocal rank fusion merges the two rankings.
-- **Questions the knowledge base can't answer don't vanish.** They're logged and drafted into answers for a person to review, so the next user gets one.
-- **Providers are swappable.** Anthropic, Google Gemini and any OpenAI-compatible model sit behind one interface, built on the Vercel AI SDK.
-- **Agents propose and people approve.** Any tool call with side effects becomes an approval task, and every decision lands in the audit log.
-- **Workflows are graphs of nodes.** Trigger, AI, knowledge, action, control, loop and governance nodes run on a background worker, either on a schedule or on an event.
 
 <br>
 
