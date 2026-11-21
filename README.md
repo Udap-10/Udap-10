@@ -3,9 +3,14 @@
 </p>
 
 <p align="center">
+  <img src="./portrait.svg" alt="Udap Kharka in a gho, flipping in and out of view" width="200">
+</p>
+
+<p align="center">
   <b>Kuzuzangpo la!</b> 🙏🇧🇹<br>
   <i>I build backend systems that talk in events, from the Land of the Thunder Dragon:<br>
-  services that publish facts, consume them reliably, and keep working when a message crosses the bridge twice.</i>
+  services that publish facts, consume them reliably, and keep working when a message crosses the bridge twice.<br>
+  These days the services include AI agents: they read the knowledge base, call real tools, and ask a person before they act.</i>
 </p>
 
 <br>
@@ -17,6 +22,44 @@ Every turn of a prayer wheel sends its prayer out one more time. That's at-least
 <p align="center">
   <img src="./wheels.svg" alt="A row of prayer wheels, one per technology: TypeScript, Node.js, NestJS, PostgreSQL, Redis, Docker, NATS JetStream and DDD turning; CQRS, Event Sourcing and Outbox still being learned" width="100%">
 </p>
+
+<br>
+
+### 🤖 Agents that ask before they act
+
+I work on a multi-tenant agentic AI platform: teams build agents, give them a knowledge base and tools, and wire them into workflows. The architecture underneath:
+
+```
+         chat · REST · Socket.IO stream · schedule · event
+                                  │
+                 ┌────────────────▼─────────────────┐
+                 │ agent runtime                    │
+                 │ tenant · role · CASL permissions │
+                 │ re-checked on every call         │
+                 └──────┬─────────┬────────────┬────┘
+                        │         │            │
+ ┌──────────────────────▼─┐ ┌─────▼──────┐ ┌───▼───────────────────┐
+ │ knowledge (RAG)        │ │ LLM        │ │ tool gateway          │
+ │ PDF · DOCX · XLSX      │ │ Claude     │ │ database · HTTP API   │
+ │ → chunk → embed        │ │ Gemini     │ │ email · file storage  │
+ │ pgvector + full-text   │ │ OpenAI-    │ └───────────┬───────────┘
+ │ fused with RRF         │ │ compatible │             │ side effects?
+ └────────────────────────┘ └────────────┘   ┌─────────▼────────────┐
+                                             │ human approval task  │
+                                             │ + audit log          │
+                                             └──────────────────────┘
+                                             runs only once a named
+                                             person says yes
+
+workflow orchestrator:
+  trigger → ai → knowledge → action → control/loop → governance
+```
+
+- **Retrieval is hybrid.** pgvector cosine similarity and Postgres full-text search run side by side, and reciprocal rank fusion merges the two rankings.
+- **Questions the knowledge base can't answer don't vanish.** They're logged and drafted into answers for a person to review, so the next user gets one.
+- **Providers are swappable.** Anthropic, Google Gemini and any OpenAI-compatible model sit behind one interface, built on the Vercel AI SDK.
+- **Agents propose and people approve.** Any tool call with side effects becomes an approval task, and every decision lands in the audit log.
+- **Workflows are graphs of nodes.** Trigger, AI, knowledge, action, control, loop and governance nodes run on a background worker, either on a schedule or on an event.
 
 <br>
 
@@ -33,6 +76,12 @@ Archery is Bhutan's national sport, and the misses teach more than the hits. The
 > `miss ×4` **"Eventually consistent" still needs an owner.** Someone has to know how long "eventually" is allowed to be.
 >
 > `miss ×5` **Decide what happens in the dead-letter queue before production decides for you.**
+>
+> `miss ×6` **An LLM is a dependency, not an oracle.** Put it behind an interface, time it out, and have a plan for when it's wrong.
+>
+> `miss ×7` **Vectors alone miss exact words.** Search for an ID or a permit number and keyword search wins. Use both.
+>
+> `miss ×8` **Never let an agent hold the keys.** It proposes the action, a person approves it, and the audit log remembers who.
 
 <br>
 
@@ -46,6 +95,8 @@ $ nats sub "druk.udap.learning.>"
 [#2] druk.udap.learning.cqrs             separating the write model from the questions people ask
 [#3] druk.udap.learning.outbox           never losing an event between commit and publish
 [#4] druk.udap.building.platform         a microservice platform on NATS JetStream
+[#5] druk.udap.building.agents           agentic workflows with tools, RAG and human approval
+[#6] druk.udap.learning.evals            knowing whether an agent got better or just different
 ```
 
 <details open>
@@ -55,10 +106,12 @@ $ nats sub "druk.udap.learning.>"
 **Build:** NestJS · TypeScript · Node.js · GraphQL<br>
 **Store:** PostgreSQL · Redis · Prisma · TypeORM<br>
 **Move:** NATS JetStream · Redis Streams · Kafka · BullMQ<br>
+**Think:** Vercel AI SDK · Anthropic Claude · Google Gemini · OpenAI-compatible APIs · pgvector · RAG · tool calling<br>
+**Stream:** Socket.IO · WebSockets · Next.js<br>
 **Ship:** Docker · AWS · Nginx · Linux<br>
 **Document:** Swagger · Postman
 
-**Patterns:** event-driven architecture · CQRS · event sourcing · outbox · microservices · domain-driven design · clean architecture
+**Patterns:** event-driven architecture · CQRS · event sourcing · outbox · microservices · domain-driven design · clean architecture · agentic workflows · retrieval-augmented generation · human-in-the-loop
 
 </details>
 
